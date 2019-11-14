@@ -1,0 +1,100 @@
+@import "./shop_1_textures";
+@import "./user_area_textures";
+@import "./user_shesuli_textures";
+@import "./user_area_registration";
+@import "./cart-page";
+
+@font-face {
+  font-family: "Myfont";
+  src: url("../Fonts/Swiss-721-BT_43231.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "second-font";
+  src: url("../Fonts/LifeCraft_Font.ttf");
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: black !important;
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .user-area__infoEnd-image {
+    height: 100px;
+  }
+
+  input:focus {
+    outline: none !important;
+  }
+
+  button:focus {
+    outline: none !important;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+.col-lg-9,
+.col-lg-3 {
+  padding: 0 !important;
+  margin: 0;
+}
+
+// CART STYLES
+
+.popover-body {
+  background-color: #170b04;
+  opacity: 0.9;
+  background-size: 112%;
+  background-position-x: -11px;
+  background-position-y: -17px;
+  width: 240px;
+
+}
+
+
+.popover {
+  background-color: transparent !important;
+  left: -14px !important;
+
+  .arrow {
+    display: none !important;
+  }
+}
+
+input {
+  color: #adad88 !important;
+}
+
+.remove-item {
+  border: none;
+  position: relative;
+  right: 52px;
+  width: 32px;
+  height: 26px;
+  background-color: transparent;
+  background-image: url("../img/Shop/Button_Minus_Normal.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

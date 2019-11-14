@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style/main.css" />
+  <script src="jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="burger-menu">
+        <nav role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <a href="">
+                <li>Main</li>
+              </a>
+              <a href="#">
+                <li>How to connect</li>
+              </a>
+              <a href="#">
+                <li>Login</li>
+              </a>
+              <a href="#">
+                <li>Registration</li>
+              </a>
+              <a href="#">
+                <li>Donation</li>
+              </a>
+              <a href="https://erikterwan.com/" target="_blank">
+                <li>Show me more</li>
+              </a>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+
+      <div class="header_list ">
+        <a href=""> <img src="../img/Logo.png"></a>
+        <ul>
+          <li><a href="../pages/shop_1_textures.html">Main</a></li>
+          <li><a href="#">How to connect</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Registration</a></li>
+          <li><a href="#">Donation</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end header-->
+    <div class="content">
+      <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-primary" style="outline: none;" data-container="body"
+              data-toggle="cart" data-placement="bottom" data-content='
+            <table class="cart-dropdown-list">
+            </table>
+            <div class="card-icon" style="float:left">DP <span class="total-cart">0</span>
+            </div>
+            <div class="card-icon-second" style="float:left">VP <span class="total">0</span> </div>
+              <a href="../pages/cart-page.html"><img src="../img/Shop/Button_Checkout_Normal.png" class="checkout"></a>
+              
+            '><span class="total">Cart (<span class="total-count">0</span> item)</span></button>
+          </div>
+        </div>
+      </nav>
+      <div class="contentBox">
+        <div class="contentBox__list">
+          <ul>
+            <li><a href="">DropDown Menu</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Vote</a></li>
+          </ul>
+        </div>
+        <div class="contentBox__filter">
+          <div class="contentBox__filter-text">
+            <a href="#"> Sort </a>
+          </div>
+          <div class="button dropdown">
+            <select id="colorselector">
+              <option value="red">Default</option>
+              <option value="yellow">Yellow</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+          <div class="button dropdown">
+            <select id="colorselector">
+              <option value="red">All items</option>
+              <option value="yellow">Yellow</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+          <div class="button dropdown" id="card">
+            <select id="colorselector">
+              <option value="red">Filter by name...</option>
+              <option value="yellow">Yellow</option>
+              <option value="blue">Blue</option>
+            </select>
+          </div>
+          <div class="contentBox__filterCoins">
+            <div class="contentBox__filterCoins-btn">
+              <a href="#"><img src="../img/vp.png"></a>
+              <a href="#"><img src="../img/dp.png"></a>
+            </div>
+            <div class="contentBox__filterCoins-box">
+              <img src="../img/User_Area_Icon/Dp.png">
+              <p id="text">DP </p><span>128</span>
+              <a href="#"><img src="../img/Button_Get_Dp_Normal.png" id="coin-img-style"></a>
+            </div>
+          </div>
+          <!-- end content filter-->
+          <!--start content-navigation-->
+        </div>
+        <div class="content__navigation">
+          <div class="col-lg-3">
+            <div class="content__navigation-list">
+              <ul>
+                <li> <a href="#">Featured</li></a>
+                <li><a href="#" id="nth-child">Pets</li></a>
+                <li><a href="#">Mounts</li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="content__navigation-boxes">
+              <div class="content__navigation-boxes-BG">
+                <img src="../img/Слой_217.png" id="img">
+                <p>Armored<br>Bloodwing</p>
+                <div class="downText">
+                  <img src="../img/User_Area_Icon/Dp.png" class="downText-firstImage">
+                  <p id="text">20 </p>
+                  <span>DP</span>
+                </div>
+                <a href="#" data-name="Bloodwing" data-price="20" data-id="1" class="add-to-cart btn btn-primary"> <img
+                    src="../img/Shop/Button_Buy_Normal.png"></a>
+              </div>
+              <div class="content__navigation-boxes-BG">
+                <img src="../img/Слой_217.png" id="img">
+                <p>Armored<br>Bloodwing</p>
+                <div class="downText">
+                  <img src="../img/User_Area_Icon/Dp.png" class="downText-firstImage">
+                  <p id="text">20 </p>
+                  <span>DP</span>
+                </div>
+                <a href="#" data-name="Bloodwing" data-price="20" data-id="1" class="add-to-cart btn btn-primary"><img
+                    src="../img/Shop/Button_Buy_Normal.png">
+                </a>
+              </div>
+              <div class="content__navigation-boxes-BG">
+                <img src="../img/Слой_217.png" id="img">
+                <p>Armored<br>Bloodwing</p>
+                <div class="downText">
+                  <img src="../img/User_Area_Icon/Dp.png" class="downText-firstImage">
+                  <p id="text">20 </p>
+                  <span>DP</span>
+                </div>
+                <a href="#" data-name="Armored Bloodwing" data-price="20" data-id="2"
+                  class="add-to-cart btn btn-primary"><img src="../img/Shop/Button_Buy_Normal.png">
+                </a>
+              </div>
+              <div class="content__navigation-boxes-BG">
+                <img src="../img/Слой_217.png" id="img">
+                <p>Armored<br>Bloodwing</p>
+                <div class="downText">
+                  <img src="../img/User_Area_Icon/Dp.png" class="downText-firstImage">
+                  <p id="text">20 </p>
+                  <span>DP</span>
+                </div>
+                <a href="#" data-name="Armored Bloodwing" data-price="20" data-id="3"
+                  class="add-to-cart btn btn-primary"><img src="../img/Shop/Button_Buy_Normal.png">
+                </a>
+              </div>
+              <div class="content__navigation-boxes-BG">
+                <img src="../img/Слой_217.png" id="img">
+                <p>Armored<br>Bloodwing</p>
+                <div class="downText">
+                  <img src="../img/User_Area_Icon/Dp.png" class="downText-firstImage">
+                  <p id="text">20 </p>
+                  <span>DP</span>
+                </div>
+                <a href="#" data-name="Armored Bloodwing" data-price="20" data-id="1"
+                  class="add-to-cart btn btn-primary"><img src="../img/Shop/Button_Buy_Normal.png">
+                </a>
+              </div>
+            </div>
+            <div class="content__navigation-boxes">
+              <div class="content__navigation-boxes-BG">
+                <img src="../img/Слой_217.png" id="img">
+                <p>Armored<br>Bloodwing</p>
+                <div class="downText">
+                  <img src="../img/User_Area_Icon/Dp.png" class="downText-firstImage">
+                  <p id="text">20 </p>
+                  <span>DP</span>
+                </div>
+                <a href="#" data-name="Armored Bloodwing" data-price="20" data-id="1"
+                  class="add-to-cart btn btn-primary"><img src="../img/Shop/Button_Buy_Normal.png">
+                </a>
+                <p id="text"></p>
+              </div>
+              <div class="content__navigation-boxes-BG">
+                <img src="../img/Слой_217.png" id="img">
+                <p>Armored<br>Bloodwing</p>
+                <div class="downText">
+                  <img src="../img/User_Area_Icon/Dp.png" class="downText-firstImage">
+                  <p id="text">20 </p>
+                  <span>DP</span>
+                </div>
+                <a href="#" data-name="Armored Bloodwing" data-price="20" data-id="1"
+                  class="add-to-cart btn btn-primary"><img src="../img/Shop/Button_Buy_Normal.png">
+                </a>
+              </div>
+              <div class="content__navigation-boxes-BG">
+                <img src="../img/Слой_217.png" id="img">
+                <p>Armored<br>Bloodwing</p>
+                <div class="downText">
+                  <img src="../img/User_Area_Icon/Dp.png" class="downText-firstImage">
+                  <p id="text">20 </p>
+                  <span>DP</span>
+                </div>
+                <a href="#" data-name="Armored Bloodwing" data-price="20" data-id="1"
+                  class="add-to-cart btn btn-primary"><img src="../img/Shop/Button_Buy_Normal.png">
+                </a>
+              </div>
+              <div class="content__navigation-boxes-BG">
+                <img src="../img/Слой_217.png" id="img">
+                <p>Armored<br>Bloodwing</p>
+                <div class="downText">
+                  <img src="../img/User_Area_Icon/Dp.png" class="downText-firstImage">
+                  <p id="text">20 </p>
+                  <span>DP</span>
+                </div>
+                <a href="#" data-name="Armored Bloodwing" data-price="20" data-id="1"
+                  class="add-to-cart btn btn-primary"><img src="../img/Shop/Button_Buy_Normal.png">
+                </a>
+              </div>
+              <div class="content__navigation-boxes-BG">
+                <img src="../img/Слой_217.png" id="img">
+                <p>Armored<br>Bloodwing</p>
+                <div class="downText">
+                  <img src="../img/User_Area_Icon/Dp.png" class="downText-firstImage">
+                  <p id="text">20 </p>
+                  <span>DP</span>
+
+                </div>
+                <a href="#" data-name="Armored Bloodwing" data-price="20" data-id="1"
+                  class="add-to-cart btn btn-primary"><img src="../img/Shop/Button_Buy_Normal.png">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="../js/script.js"></script>
+</body>
+
+</html>

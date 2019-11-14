@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../style/main.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.11/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.11/js/select2.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header container-fluid">
+            <div class="burger-menu">
+                <nav role="navigation">
+                    <div id="menuToggle">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <ul id="menu">
+                            <a href="#">
+                                <li>Main</li>
+                            </a>
+                            <a href="#">
+                                <li>How to connect</li>
+                            </a>
+                            <a href="#">
+                                <li>Login</li>
+                            </a>
+                            <a href="#">
+                                <li>Registration</li>
+                            </a>
+                            <a href="#">
+                                <li>Donation</li>
+                            </a>
+                            <a href="https://erikterwan.com/" target="_blank">
+                                <li>Show me more</li>
+                            </a>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!-- end burger menu-->
+            <div class="header_list ">
+                <a href=""> <img src="../img/Logo.png"></a>
+                <ul>
+                    <li><a href="../pages/shop_1_textures.html">Main</a></li>
+                    <li><a href="#">How to connect</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="#">Donation</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end header-->
+        <div class="content">
+            <div class="contentBox">
+                <div class="contentBox__list">
+                    <ul>
+                        <li><a href="#">DropDown Menu</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Vote</a></li>
+                    </ul>
+                </div>
+                <!-- start user area-->
+                <div class="user">
+                    <div class="col-lg-8">
+                        <div class="user-area">
+                            <div class="user-area__top">
+                                <p>User Panel</p>
+                            </div>
+                            <div class="user-area__info">
+                                <div class="user-area__infoImage">
+                                    <img src="../img/user img.png">
+                                </div>
+                                <div class="user-area__infoIcons">
+                                    <div class="user-area__infoIcons-box">
+                                        <ul>
+                                            <li><img src="../img/User_Area_Icon/Nickname.png"> <span>Nickname</span>
+                                            </li>
+                                            <li><img src="../img/User_Area_Icon/Location.png"><span>Location</span>
+                                            </li>
+                                            <li><img src="../img/User_Area_Icon/Expansion.png"><span> Expansion</span>
+                                            </li>
+                                            <li><img src="../img/User_Area_Icon/Слой_191.png"><span>Account Rank</span>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li><input type="text" class="displayFirst">
+                                                <label class="displayFirst">
+                                                    <img src="../img/User_Area_Icon/close.png" class="display-image">
+                                                    <img src="../img/User_Area_Icon/done.png" class="display-image">
+                                                </label>
+                                                <img src="../img/User_Area_Icon/Edit.png" class="chickFirst">
+                                            </li>
+                                            <li><input type="text" class="displaySecond">
+                                                <label class="displaySecond">
+                                                    <img src="../img/User_Area_Icon/close.png" class="display-imageSC">
+                                                    <img src="../img/User_Area_Icon/done.png" class="display-imageSC">
+                                                </label>
+                                                <img src="../img/User_Area_Icon/Edit.png" class="chickSecond">
+                                            </li>
+                                            <li><input type="text" class="displayThird">
+                                                <label class="displayThird">
+                                                    <img src="../img/User_Area_Icon/close.png" class="display-imageTH">
+                                                    <img src="../img/User_Area_Icon/done.png" class="display-imageTH">
+                                                </label>
+                                                <img src="../img/User_Area_Icon/Setting.png" class="chickThird">
+                                            </li>
+                                            <li></li>
+                                        </ul>
+                                        <ul>
+                                            <li><img src="../img/User_Area_Icon/Vp.png"> <span>Voting points</span>
+                                            </li>
+                                            <li><img src="../img/User_Area_Icon/Dp.png"><span>Donation points</span>
+                                            </li>
+                                            <li><img src="../img/User_Area_Icon/Account.png"><span>Account status</span>
+                                            </li>
+                                            <li><img src="../img/User_Area_Icon/Member.png"><span>Member since</span>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>0</li>
+                                            <li>705</li>
+                                            <li>Active</li>
+                                            <li>2019/02/05</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end info icons-->
+                            <div class="user-area__infoBtn">
+                                <ul>
+                                    <li><a href=""><img src="../img/Button_Vote_Normal.png"></a></li>
+                                    <li><a href=""><img src="../img/Button_Item_Story_Normal.png"></a></li>
+                                    <li><a href=""><img src="../img/Change.png"></a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href=""><img src="../img/Button_Donate_Normal.png"></a></li>
+                                    <li><a href=""><img src="../img/Button_Account_Normal.png"></a></li>
+                                    <li><a href=""><img src="../img/Teleporter.png"></a></li>
+                                </ul>
+                            </div>
+                            <!-- end info-btn-->
+                            <div class="user-area__infoEnd">
+                                <span>Characters</span>
+                                <div class="user-area__infoEnd-image">
+                                    <img src="../img/ssss.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end info-->
+                <div class="col-lg-4">
+                    <div class="user-registration">
+                        <div class="user-registration-text">
+                            <span>USER AREA</span>
+                        </div>
+                        <div class="user-registration-form">
+                            <ul>
+                                <li><input type="text" placeholder="User"></li>
+                                <li><input type="text" placeholder="Email"></li>
+                                <li><input type="text" placeholder="Ip"></li>
+                                <li><input type="text" placeholder="VP"></li>
+                                <li><input type="text" placeholder="DP"></li>
+                            </ul>
+                        </div>
+                        <div class="user-registration-btn">
+                            <a href=""><img src="../img/Button_User_Area_Normal.png"></a>
+                            <a href=""><img src="../img/Button_Log_Out_Normal.png"></a>
+                        </div>
+                        <div class="user-registration-Secondtext">
+                            <span>ONLINE PLAYERS</span>
+                        </div>
+                        <div class="user-registration-static">
+                            <div class="user-registration-staticText">
+                                <span>Amber Wow</span>
+                                <span>7/350</span>
+                            </div>
+                            <div class="user-registration-image">
+                                <img src="../img/tot.png" style="width: 20%;">
+                            </div>
+                        </div>
+                        <div class="user-registration-Thirdtext">
+                            <span id="text">JOIN US</span>
+                        </div>
+                        <div class="user-registration-Pages">
+                            <ul>
+                                <li><a href="http://www.facebook.com"><img src="../img/Button_Fb_Over.png">FACEBOOK</a>
+                                </li>
+                                <li><a href="http://www.discord.com"><img src="../img/Button_Discord.png">DISCORD</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end content list-->
+            <script src="../js/script.js"></script>
+
+</body>
+
+</html>

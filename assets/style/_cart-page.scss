@@ -1,0 +1,211 @@
+.cart-page-list {
+    width: 100%;
+    position: relative;
+    left: 43px;
+    top: 32px;
+    height: 55px;
+
+    tr {
+        text-align: center;
+        height: 55px;
+        border-bottom: 1px solid #b7721c59;
+    }
+
+    td:nth-child(1) {
+        width: 35%;
+        padding: 26px 30px;
+        @include fontColor();
+        font-size: 16px;
+    }
+
+    td:nth-child(2) {
+        display: flex;
+        position: relative;
+        top: 21px;
+        left: 40%;
+    }
+}
+
+.page {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 0;
+}
+
+.card-text-style {
+    @include fontColor();
+    font-size: 18px;
+    display: flex;
+    width: 51%;
+    margin: auto;
+    position: relative;
+    left: 65px;
+}
+
+
+
+.back-main-page::before {
+    content: " < back";
+    color: green;
+    position: relative;
+    top: -22px;
+    left: 10%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.back-main-page::after {
+    content: " buy";
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    margin-top: -27px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .card-list {
+        width: 35%;
+    }
+
+    .user-registration {
+        width: 92% !important;
+    }
+
+    .card-text-style {
+        left: 0;
+    }
+
+    .back-main-page::after {
+        position: relative;
+        right: 26px;
+        margin-top: 0;
+        font-size: 13px;
+    }
+
+    .back-main-page::before {
+        top: 0;
+        font-size: 13px;
+    }
+
+    .cart-page-list {
+        width: 97%;
+        top: 0;
+        left: 0px;
+    }
+
+    .cart-page-list {
+        td:nth-child(1) {
+            padding: 9px 19px;
+            font-size: 12px;
+        }
+
+        td:nth-child(2) {
+            top: 29px;
+        }
+
+    }
+
+    .remove-item {
+        top: -16px;
+    }
+
+    .card-text-style {
+        width: 50%;
+        font-size: 11px;
+        top: 7px;
+        left: 37px;
+    }
+
+    .page {
+        margin-top: -6px;
+        font-size: 12px;
+    }
+}
+
+@media screen and(min-width:750px) and (max-width: 1200px) {
+    .back-main-page::after {
+        margin: 0;
+    }
+
+    .cart-page-list {
+        width: 94%;
+        position: relative;
+        left: 27px;
+        top: 0;
+
+        td:nth-child(1) {}
+
+        td:nth-child(2) {
+            left: 33%;
+        }
+
+    }
+
+    .cart-page-list tr {
+        text-align: center;
+    }
+
+    .card-text-style {
+        width: 59%;
+        font-weight: bold;
+        left: 37px;
+    }
+
+    .back-main-page::after {
+        margin-right: 57px;
+        margin-top: 9px;
+    }
+
+    .back-main-page::before {
+        top: 9px;
+    }
+
+    .user-registration {
+        width: 87%;
+        height: 100%;
+        margin-top: 44px;
+        margin-bottom: 20px;
+    }
+
+    .navbar.navbar-inverse.bg-inverse.fixed-top.bg-faded {
+        left: 58%;
+    }
+}
+
+@media screen and(min-width:990px) and (max-width: 1200px) {
+    .navbar.navbar-inverse.bg-inverse.fixed-top.bg-faded {
+        left: 68%;
+    }
+
+    .card-text-style {
+        font-size: 16px;
+        width: 40%;
+        font-weight: bold;
+    }
+
+    .back-main-page::after {
+        margin-right: 57px;
+        top: 0;
+        margin-top: 3px;
+    }
+
+    .back-main-page::before {
+        top: 9px;
+    }
+
+
+    .user-registration {
+        width: 84%;
+        height: 100%;
+        margin-top: 44px;
+    }
+
+    .cart-page-list {
+        td:nth-child(2) {
+            left: 50%;
+        }
+    }
+}
