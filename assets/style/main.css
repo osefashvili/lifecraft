@@ -177,7 +177,7 @@ label {
   position: relative;
   min-height: 50px;
   left: 72%;
-  top: 297px;
+  top: 330px;
   padding-right: 0 !important;
 }
 
@@ -1682,8 +1682,8 @@ a {
     height: 30px;
   }
   .user-area__infoBtn ul li a img {
-    height: 36px;
     width: 193%;
+    height: 55px !important;
   }
   .user-area__infoBtn {
     padding: 0px;
