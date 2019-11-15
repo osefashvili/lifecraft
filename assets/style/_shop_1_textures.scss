@@ -305,7 +305,7 @@ label {
 
 
   &-list {
-    height: 457x;
+    height: 600px;
 
     ul {
       height: 457px;
@@ -345,7 +345,7 @@ label {
     display: flex;
     justify-content: space-around;
     padding-left: 10px;
-    margin-top: 20px;
+    margin-top: 12px;
     height: 200px;
 
     &-BG {
@@ -823,7 +823,7 @@ a {
   }
 
   .content__navigation {
-    height: 500px;
+
 
     ul {
       border: none;
@@ -834,7 +834,7 @@ a {
     padding: 0;
     justify-content: initial;
     margin: 0;
-    height: 89px;
+    height: 300px;
     display: -webkit-inline-box;
   }
 
@@ -845,6 +845,7 @@ a {
   .col-lg-9 {
     width: 100%;
     overflow: hidden;
+    height: 500px;
     top: 50%;
     float: right;
     left: 6px;
@@ -909,10 +910,8 @@ a {
 
   .content__navigation {
     width: 91%;
-    height: 459px;
 
     &-list {
-      height: 0px;
 
       ul {
         height: 0;
@@ -946,13 +945,6 @@ a {
     }
   }
 
-  .content__navigation {
-    height: 500px;
-
-    ul {
-      border: none;
-    }
-  }
 
   .content__navigation-boxes-BG {
     background-size: 119px;
@@ -964,8 +956,7 @@ a {
   }
 
   .content__navigation-boxes {
-    margin-top: 0;
-    height: 175px;
+    height: 190px;
   }
 
   .navbar.navbar-inverse.bg-inverse.fixed-top.bg-faded {
@@ -1023,7 +1014,6 @@ a {
   }
 
   .content__navigation-list ul {
-    height: 0px;
     padding: 0px;
 
     li {
@@ -1038,7 +1028,6 @@ a {
   }
 
   .content__navigation-list {
-    height: 0;
     margin: 42px 0px;
   }
 
@@ -1091,8 +1080,8 @@ a {
   }
 
 
-  .content__navigation {
-    height: 100%;
+  .content__navigation-list {
+    height: 430px !important;
   }
 
   .add-to-cart.btn.btn-primary:hover {
@@ -1115,7 +1104,7 @@ a {
   }
 
   .content__navigation {
-    height: 500px;
+
 
     ul {
       border: none;

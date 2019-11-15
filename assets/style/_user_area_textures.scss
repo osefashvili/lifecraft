@@ -494,7 +494,7 @@
 
     .user-area {
         width: 84%;
-        height: 260px;
+        height: 300px;
         margin: auto;
 
         &__infoImage {
@@ -582,6 +582,7 @@
         }
     }
 
+
     .user-registration {
         width: 90%;
         height: 0;
@@ -665,13 +666,13 @@
     }
 
     .user-area__infoBtn ul li a img {
-        width: 193%;
-        height: 55px !important;
+        width: 106%;
+        height: 53px !important;
     }
+}
 
-    .user-area__infoBtn {
-        padding: 0px;
-        position: relative;
-        right: 7%;
+.user-area__infoBtn {
+    ul {
+        margin-right: 17px;
     }
 }

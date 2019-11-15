@@ -318,7 +318,7 @@ label {
 }
 
 .content__navigation-list {
-  height: 457x;
+  height: 600px;
 }
 
 .content__navigation-list ul {
@@ -364,7 +364,7 @@ label {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding-left: 10px;
-  margin-top: 20px;
+  margin-top: 12px;
   height: 200px;
 }
 
@@ -812,9 +812,6 @@ a {
   .content__navigation-list #nth-child {
     left: 0;
   }
-  .content__navigation {
-    height: 500px;
-  }
   .content__navigation ul {
     border: none;
   }
@@ -824,7 +821,7 @@ a {
         -ms-flex-pack: initial;
             justify-content: initial;
     margin: 0;
-    height: 89px;
+    height: 300px;
     display: -webkit-inline-box;
   }
   .content__navigation-list ul {
@@ -833,6 +830,7 @@ a {
   .col-lg-9 {
     width: 100%;
     overflow: hidden;
+    height: 500px;
     top: 50%;
     float: right;
     left: 6px;
@@ -883,10 +881,6 @@ a {
 @media screen and (min-width: 750px) and (max-width: 1000px) {
   .content__navigation {
     width: 91%;
-    height: 459px;
-  }
-  .content__navigation-list {
-    height: 0px;
   }
   .content__navigation-list ul {
     height: 0;
@@ -914,12 +908,6 @@ a {
   .content__navigation-list #nth-child {
     left: 0;
   }
-  .content__navigation {
-    height: 500px;
-  }
-  .content__navigation ul {
-    border: none;
-  }
   .content__navigation-boxes-BG {
     background-size: 119px;
   }
@@ -928,8 +916,7 @@ a {
     padding-top: 2px;
   }
   .content__navigation-boxes {
-    margin-top: 0;
-    height: 175px;
+    height: 190px;
   }
   .navbar.navbar-inverse.bg-inverse.fixed-top.bg-faded {
     position: relative;
@@ -971,7 +958,6 @@ a {
     top: -16px !important;
   }
   .content__navigation-list ul {
-    height: 0px;
     padding: 0px;
   }
   .content__navigation-list ul li {
@@ -982,7 +968,6 @@ a {
     position: relative;
   }
   .content__navigation-list {
-    height: 0;
     margin: 42px 0px;
   }
   .contentBox__list ul li:nth-child(2) {
@@ -1022,8 +1007,8 @@ a {
   .button.dropdown {
     width: 40%;
   }
-  .content__navigation {
-    height: 100%;
+  .content__navigation-list {
+    height: 430px !important;
   }
   .add-to-cart.btn.btn-primary:hover {
     margin: 0;
@@ -1038,9 +1023,6 @@ a {
   .content__navigation-boxes {
     margin-top: 40px;
     height: 177px;
-  }
-  .content__navigation {
-    height: 500px;
   }
   .content__navigation ul {
     border: none;
@@ -1563,7 +1545,7 @@ a {
   }
   .user-area {
     width: 84%;
-    height: 260px;
+    height: 300px;
     margin: auto;
   }
   .user-area__infoImage {
@@ -1682,14 +1664,13 @@ a {
     height: 30px;
   }
   .user-area__infoBtn ul li a img {
-    width: 193%;
-    height: 55px !important;
+    width: 106%;
+    height: 53px !important;
   }
-  .user-area__infoBtn {
-    padding: 0px;
-    position: relative;
-    right: 7%;
-  }
+}
+
+.user-area__infoBtn ul {
+  margin-right: 17px;
 }
 
 .user_textarea {
@@ -1871,9 +1852,6 @@ a {
   .content__navigation {
     width: 85%;
     height: 122px;
-  }
-  .content__navigation-list {
-    height: 0px;
   }
   .content__navigation-list ul {
     height: 0;
